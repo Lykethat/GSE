@@ -29,7 +29,7 @@ class RouteScreen(Screen):
         self.label_filters = Label(text="Filter nach Labels:", font_size=20)
         self.filter_layout.add_widget(self.label_filters)
         
-        self.filters = ["History", "Green Field", "Architecture", "Mystery", "Relaxing"]
+        self.filters = ["culture", "nature", "museum/art", "food", "shopping", "fun", "sports"]
         self.filter_checkboxes = {}
         for label in self.filters:
             box = BoxLayout(orientation='horizontal', size_hint=(1, None), height=40)

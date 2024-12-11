@@ -1,0 +1,7 @@
+attractions = [
+    {"name": "Schloss Neuschwanstein", "labels": ["History", "Architecture"], "coords": [47.5575, 10.7498], "ratings": []},
+    {"name": "Englischer Garten", "labels": ["Green Field", "Relaxing"], "coords": [48.1593, 11.5800], "ratings": []},
+    {"name": "Brandenburger Tor", "labels": ["History", "Architecture"], "coords": [52.5163, 13.3777], "ratings": []},
+    {"name": "Berliner Zoo", "labels": ["Green Field"], "coords": [52.5101, 13.2894], "ratings": []},
+    {"name": "Eiffelturm", "labels": ["Architecture", "History"], "coords": [48.8584, 2.2945], "ratings": []},
+]

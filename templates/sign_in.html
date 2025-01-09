@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Sign In{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-xl font-bold text-center mb-4">Sign In</h2>
+    <form action="{{ url_for('main_search') }}" method="post" class="space-y-4">
+        <div>
+            <label for="name" class="block text-sm font-medium">Name</label>
+            <input type="text" id="name" name="name" required class="w-full px-3 py-2 border rounded-md">
+        </div>
+        <div>
+            <label for="nationality" class="block text-sm font-medium">Nationality</label>
+            <select id="nationality" name="nationality" required class="w-full px-3 py-2 border rounded-md">
+                <option value="American">American</option>
+                <option value="British">British</option>
+                <option value="Canadian">Canadian</option>
+                <option value="Indian">Indian</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="age" class="block text-sm font-medium">Age</label>
+            <input type="number" id="age" name="age" required class="w-full px-3 py-2 border rounded-md">
+        </div>
+        <div>
+            <label for="gender" class="block text-sm font-medium">Gender</label>
+            <select id="gender" name="gender" required class="w-full px-3 py-2 border rounded-md">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md">Sign In</button>
+    </form>
+</div>
+
+
+{% endblock %}

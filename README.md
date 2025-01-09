@@ -1,26 +1,35 @@
-# Intellitour
+# Intellitour (Prototype)
 
 ## About
 
 This is a project from the  Nuremberg Institute of Technology (Germany), Ritsumeikan University (Japan) and University of Brawijaya (Indonesia).
-THe goal is to develop an prototype for a smart tourism application for the city of Malang in Indonesia
+The goal is to develop a prototype for a smart tourism application (Intellitour) for the city of Malang in Indonesia
+
+## Pre-requisites
+
+1. Python
+3. Pip
+2. Flask
 
 ## Installation
 
-### Step 1:
-Pip is required to run this project [pip](https://pip.pypa.io/en/stable/) to run the application. Ensure that it is installed
-
-### Step 1:
-Next, Navigate to your terminal and install Flask by running this command
-
+### Step 1: Install Flask
+To install the application, ensure that both Python and Pip have been installed.
+If you don't have Python installed, click [here](https://realpython.com/installing-python/). Once Python is installed proceed to install and pip using this [guide](https://pip.pypa.io/en/stable/installation/). Once both Python and PiP have been installed navigate to your terminal and install Flask by running this command
 ```bash
 pip install Flask
 ```
-## Contributors
-
-[Carly](https://github.com/carlyjaurelle)
-
-Please make sure to update tests as appropriate.
+### Step 2: Run the application
+Open the project folder and open the terminal from there and then run this command 
+```bash
+python app.py
+```
+## Project Team
+1. [KERN Yannick​](https://github.com/Lykethat)
+2. [PARK Jooinh​](https://github.com/RosesAndViolets)
+3. [BOUKANDOU MOUKOUAMA Carly-jaurelle​](https://github.com/carlyjaurelle)
+4. [Okello John Silas](https://github.com/okellojohnsilas)
+5. [HE Yuke​](https://github.com/yorke986)
 
 ## License
 

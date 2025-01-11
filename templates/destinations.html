@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}DESTINATION{% endblock %}
+
+{% block content %}
+<h4 class="text-center font-weight-bold mb-2 text-primary">BROWSE DESTINATIONS</h4>
+<form class="" action="{{ url_for('main_search') }}" method="post"> 
+        <input type="password" class="form-control form-control-sm" id="inputPassword" placeholder="Search for destination here">
+</form>
+<hr>
+<div class="my-4">
+    <!-- Carousel -->
+    <div id="buttonCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            {% set repeated_labels = categories * 4 %} <!-- Repeat categories 4 times -->
+            {% for i in range(0, repeated_labels|length, 3) %} <!-- Display 3 buttons per slide on mobile -->
+            <div class="carousel-item {% if i == 0 %}active{% endif %}">
+                <div class="d-flex flex-wrap justify-content-center">
+                    {% for label in repeated_labels[i:i+3] %}
+                    <a class="btn btn-outline-secondary m-1 d-inline-block"
+                        style="min-width: 80px; max-width: 120px; font-size: 14px;" href="#">{{ label.replace('_', '
+                        ').title() }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- Controls -->
+        <a class="carousel-control-prev bg-primary" href="#buttonCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next bg-primary" href="#buttonCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Opening Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for attraction in attractions %}
+        <tr>
+            <td>{{ attraction.attraction_id}}</td>
+            <td>{{ attraction.properties.name}}</td>
+            <td>{{ attraction.properties.category }}</td>
+            <td>{{ attraction.properties.opening_hours }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Carousel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .carousel-container {
+            width: 80%;
+            max-width: 800px;
+            overflow: hidden;
+            position: relative;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 25%; /* Show 4 buttons at a time */
+            box-sizing: border-box;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .carousel-item button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .carousel-item button:hover {
+            background-color: #0056b3;
+        }
+
+        .carousel-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-controls button {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .carousel-controls button:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-track" id="carousel-track">
+            <!-- Buttons dynamically generated here -->
+        </div>
+        <div class="carousel-controls">
+            <button id="prev-btn">&lt;</button>
+            <button id="next-btn">&gt;</button>
+        </div>
+    </div>
+
+    <script>
+        const categories = [
+            "arts_centre", "attraction", "bag", "bank", "cafe", "clothes", "college",
+            "cosmetics", "department_store", "fuel", "furniture", "gallery", "hospital",
+            "hostel", "library", "marketplace", "museum", "parking", "place_of_worship",
+            "restaurant", "school", "supermarket"
+        ];
+
+        const carouselTrack = document.getElementById("carousel-track");
+        const prevBtn = document.getElementById("prev-btn");
+        const nextBtn = document.getElementById("next-btn");
+
+        let currentIndex = 0;
+
+        // Function to generate buttons
+        function populateCarousel() {
+            const itemsToShow = 4; // Number of visible buttons
+            const totalItems = categories.length;
+
+            // Duplicate categories to ensure looping
+            const loopedCategories = [...categories, ...categories.slice(0, itemsToShow)];
+            
+            loopedCategories.forEach(category => {
+                const item = document.createElement("div");
+                item.classList.add("carousel-item");
+                const button = document.createElement("button");
+                button.textContent = category.replace("_", " ").toUpperCase();
+                item.appendChild(button);
+                carouselTrack.appendChild(item);
+            });
+        }
+
+        // Move carousel
+        function moveCarousel(index) {
+            const itemsToShow = 4;
+            const itemWidth = carouselTrack.querySelector(".carousel-item").offsetWidth;
+            carouselTrack.style.transform = `translateX(-${index * itemWidth}px)`;
+        }
+
+        // Add event listeners
+        nextBtn.addEventListener("click", () => {
+            const itemsToShow = 4;
+            currentIndex += 1;
+            if (currentIndex > categories.length) {
+                currentIndex = 1; // Reset to first looped item
+                carouselTrack.style.transition = "none"; // Remove animation for loop reset
+                moveCarousel(0); // Reset position
+                setTimeout(() => {
+                    carouselTrack.style.transition = "transform 0.5s ease-in-out"; // Restore animation
+                    moveCarousel(currentIndex);
+                });
+            } else {
+                moveCarousel(currentIndex);
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            currentIndex -= 1;
+            if (currentIndex < 0) {
+                currentIndex = categories.length - 1; // Reset to last looped item
+                carouselTrack.style.transition = "none"; // Remove animation for loop reset
+                moveCarousel(categories.length); // Reset position
+                setTimeout(() => {
+                    carouselTrack.style.transition = "transform 0.5s ease-in-out"; // Restore animation
+                    moveCarousel(currentIndex);
+                });
+            } else {
+                moveCarousel(currentIndex);
+            }
+        });
+
+        // Initialize carousel
+        populateCarousel();
+        moveCarousel(currentIndex);
+    </script>
+</body>
+</html>

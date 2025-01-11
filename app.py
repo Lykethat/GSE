@@ -1,17 +1,30 @@
 from flask import Flask, render_template, request, redirect, url_for
-from tools.data import *
+import json
+
+# Load the functions file
+from tools.functions import *
+
+# Initiate the Flask application 
 app = Flask(__name__)
 
-@app.route('/')
-def sign_in():
-    return render_template('sign_in.html')
+# Define the paths for the JSON files
+data_folder = "data"
+attractions = load_json(os.path.join(data_folder, "attractions_modified.json"))
+nationalities = load_json(os.path.join(data_folder, "nationalities.json"))
+categories = load_json(os.path.join(data_folder, "categories.json"))
 
-@app.route('/main', methods=['GET', 'POST'])
+# Home Route
+@app.route('/')
+def auth():
+    return render_template('auth.html',nationalities=nationalities.get("nationalities", []))
+
+# Destinations Route
+@app.route('/destinations', methods=['GET', 'POST'])
 def main_search():
     if request.method == 'POST':
         # Handle search or filter here
-        return redirect(url_for('main_search'))
-    return render_template('main_search.html', labels=labels, attractions=attractions)
+        return redirect(url_for('destinations'))
+    return render_template('destinations.html', categories=categories.get("categories", []), attractions=attractions)
 
 @app.route('/ai-trip', methods=['GET', 'POST'])
 def ai_trip():

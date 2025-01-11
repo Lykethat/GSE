@@ -1,0 +1,3540 @@
+[
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Open Dokter: Praktek Umum dr. Joko Agus Gunawan",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Indragiri",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 4824317358,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6396247,
+                -7.9585149
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "SMP Negeri 16 Malang",
+            "name:en": null,
+            "amenity": "school",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "No. 26",
+            "addr:street": "Jalan Teluk Pacitan",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 4769080420,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6615183,
+                -7.93453
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RS Ibu dan Anak Galeri Chandra",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Jalan Andong No.3, Jatimulyo, Lowokwaru, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141",
+            "addr:street": "Jalan Andong No.3, Jatimulyo, Lowokwaru, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5288719335,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6175657,
+                -7.948422
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Museum Batu Mulia Nusantara",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "museum",
+            "opening_hours": "Mo-Fr 09:00-17:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Universitas Brawijaya Malang",
+            "addr:street": "Veteran",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213469388,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.613124,
+                -7.9522607
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Masjid Al Ihsan",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Kolonel Sugiono",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 7216185654,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6280489,
+                -8.0169275
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Sudi Mampir",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "32",
+            "addr:street": "Jl. Kesatrian Dalam",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3300126476,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6432617,
+                -7.9784361
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Teman Nongkrong Malang",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Su 08:00-22:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "40 B4",
+            "addr:street": "Jalan Jaksa Agung Suprapto",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 12110805195,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6339554,
+                -7.9672043
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Masjid Fatimah Sulfat",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "3",
+            "addr:street": "Jalan Simpang Sulfat Barat I",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 12266025473,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6520544,
+                -7.9669898
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Resto Vegan Mie Panjang",
+            "name:en": "Resto Vegan Mie Panjang",
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "22-24",
+            "addr:street": "Jalan Letjend. Sunandar Priyosudarmo",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 6817644786,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6457276,
+                -7.9538596
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Huda Tauhid",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "RT 02",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736137,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6013592,
+                -7.9551841
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Levels",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "26",
+            "addr:street": "Jalan Terusan Borobudur",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958555964,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6364505,
+                -7.9390684
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Vosco Coffee",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "27",
+            "addr:street": "Jalan Borobudur",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958556485,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6376659,
+                -7.9401682
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Epic Culinary",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Kav 17",
+            "addr:street": "Jalan Candi Trowulan",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958557847,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6333364,
+                -7.9395848
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Elizabeth",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "bag",
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 12113050686,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6154453,
+                -7.9737165
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Asrama Rahadi Osman 1 Malang",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "hostel",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Bareng Raya 2N, No. 30",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3686792041,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.619639,
+                -7.9790073
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Galipat - Mbahman - Sukun",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Sukun",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3631034135,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6198528,
+                -8.0152439
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Indomart Sekarpuro",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "supermarket",
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3415986977,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6748738,
+                -7.9691767
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "SD Kristen Petra",
+            "name:en": null,
+            "amenity": "school",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "53",
+            "addr:street": "Jalan Profesor Mohammad Yamin",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8430648297,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6322978,
+                -7.9907898
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Tipsy Lion Malang",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Su 12:00-02:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "18",
+            "addr:street": "Jalan Soekarno Hatta",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 11246123639,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6198312,
+                -7.944417
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Ria Djenaka",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Tlogomas",
+            "addr:housenumber": "32",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958394535,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.5959582,
+                -7.9222431
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Otoy The Waroeng",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Tlogomas",
+            "addr:housenumber": "40",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958402652,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.5959289,
+                -7.9221676
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Paffee Coffee",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Tlogomas",
+            "addr:housenumber": null,
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958412935,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6028748,
+                -7.9274959
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Mimiq Koffie",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Tlogomas",
+            "addr:housenumber": "Kav 1",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958416341,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6024304,
+                -7.9266382
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Calories",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Soekarno - Hatta",
+            "addr:housenumber": "82C",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958543412,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6280513,
+                -7.9375369
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Labore Coffee Eatery",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Soekarno - Hatta",
+            "addr:housenumber": "25",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958546347,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.630696,
+                -7.9393279
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Hobbies Kitchen",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Soekarno - Hatta",
+            "addr:housenumber": "27",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958548311,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6305699,
+                -7.9392628
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Monkey Garage",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Soekarno - Hatta",
+            "addr:housenumber": "34",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958549900,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.629104,
+                -7.938641
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "DW Coffee Shop",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Bogor",
+            "addr:housenumber": "11",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958582258,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6210363,
+                -7.9617692
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Kapel Santa Maria Yustina",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "99X",
+            "addr:street": "Jalan Mayor Jenderal Sungkono",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 12192108407,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6418351,
+                -8.01431
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Galipat-Baitur Rohim - Ketapang",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Pelabuhan Ketapang 1",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3631041802,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6128512,
+                -8.0069049
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Nurul Hidayah",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "RT 08",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736133,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6006374,
+                -7.952952
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Cotton Co",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Soekarno - Hatta",
+            "addr:housenumber": "Kav 11",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958540208,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6269133,
+                -7.9369824
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "MIE AMORFATI",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "06",
+            "addr:street": "Jl. Sitirejo 6, Lemah Duwur, Sitirejo, Kec. Wagir",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 7797761241,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6029282,
+                -8.0241689
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Masjid Al Muttaqien",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "65 A",
+            "addr:street": "Jalan Candi Trowulan",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 7953054823,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6383285,
+                -7.9412634
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RS Islam Unisma",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Jalan Mayor Jenderal Haryono 139, Dinoyo, Kecamatan Lowokwaru, Kota Malang, Jawa Timur 65144",
+            "addr:street": "Jalan Mayjend. M.T. Haryono",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 4071918075,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6087337,
+                -7.9402498
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "SDN Tasikmadu 1",
+            "name:en": null,
+            "amenity": "school",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "71",
+            "addr:street": "Jalan Golf",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 4769083721,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6293926,
+                -7.9131131
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla PAY Salman",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Raya Candi VI A",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736120,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6017114,
+                -7.9527798
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Maqomul Ijabah",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "RT 01",
+            "addr:street": "Jalan Raya Candi VI A",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736121,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6018402,
+                -7.954877
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Vibes Cafe",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "22",
+            "addr:street": "Jalan Joyo Utomo",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10980693147,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6026707,
+                -7.9431101
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan FE UM",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "5",
+            "addr:street": "Jalan Sumbesari",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10218900909,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6153578,
+                -7.9615783
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Institut Teknologi Nasional Malang",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "2",
+            "addr:street": "Jalan Sigura - Gura",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213392902,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6117791,
+                -7.9582679
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Lafferie",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Th, Su 08:00-21:30; Fr 08:00-17:00; Sa 18:00-22:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "6",
+            "addr:street": "Jalan Raya Lembah Dieng",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 6684216707,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6032221,
+                -7.9703987
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Universitas Merdeka Malang",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "11B",
+            "addr:street": "Jalan Terusan Halimun",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213385207,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6105513,
+                -7.9717051
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Masjid Al Muhajirin",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Gadang Gang 9",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 7211843251,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6314606,
+                -8.0102748
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Art Center Arts Council Malang",
+            "name:en": null,
+            "amenity": "arts_centre",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "3",
+            "addr:street": "Jalan Majapahit",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10216215959,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6317107,
+                -7.97891
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Cherry's",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "12",
+            "addr:street": "Jalan Candi Waringin Lawang",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213390148,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6381092,
+                -7.9424103
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "PAUD Rofi",
+            "name:en": null,
+            "amenity": "school",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "42",
+            "addr:street": "Jalan Teluk Mandar",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8301896136,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6612823,
+                -7.9317169
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "SPBU Pertamina 54.651.19 Gadang",
+            "name:en": null,
+            "amenity": "fuel",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "42",
+            "addr:street": "Jalan Kolonel Sugiono",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 7212009501,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6283266,
+                -8.019593
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Prima Food and Bakery Supplier",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "supermarket",
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "27",
+            "addr:street": "Jalan Semeru",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153351836,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6282592,
+                -7.9766147
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "DImsum Sewuan",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "464",
+            "addr:street": "Kh. Ahmad Dahlan Gang 1",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8555786535,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6346318,
+                -7.9854509
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Ikan Bakar 52",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "11",
+            "addr:street": "Jalan Kyai Haji Agus Salim",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5707357021,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6330484,
+                -7.9840024
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Asri",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "31C",
+            "addr:street": "Jalan Mawar",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213386970,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.631908,
+                -7.9571925
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Circle Cafe & Resto",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Soekarno - Hatta",
+            "addr:housenumber": "D414",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5330300566,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6228244,
+                -7.9415165
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Arek-arek Cafe",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Puncak Borobudur",
+            "addr:housenumber": "505",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958540121,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6245666,
+                -7.9360207
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Monopoli",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Soekarno - Hatta",
+            "addr:housenumber": "28",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958550279,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6267955,
+                -7.9374452
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "SMK Negeri 9 Malang",
+            "name:en": null,
+            "amenity": "school",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jl. Sampurna, Cemorokandang",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3154395544,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6871407,
+                -7.9817225
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "PPS. Sumeleh Raudlatul Arifin",
+            "name:en": null,
+            "amenity": "school",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jl. Raya Pucangsongo Gg. Pesantren 28 Slamet Wiroto Tumpang",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8964477158,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.7193748,
+                -7.993332
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Benndoll Caffee",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Tlogomas",
+            "addr:housenumber": "42",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958413109,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.5951206,
+                -7.9214528
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan FKIP UNISMA",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213466602,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6066182,
+                -7.9369541
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Al-Firdaus",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "RT 08",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736134,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6000046,
+                -7.952835
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "MAXIM RONGGOLAWE KLOJEN",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "23",
+            "addr:street": "Jalan Ronggolawe",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 9816158490,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.643634,
+                -7.9713748
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Khoirul Hidayah",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Raya Candi VI D",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736119,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6016067,
+                -7.9533112
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Roudhotul Jannah",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "RT 03",
+            "addr:street": "Jalan Raya Candi VI C",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736132,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6001448,
+                -7.9543265
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Baiturrohmah",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "RT 08",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736136,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6006741,
+                -7.9521119
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Minimaniez Art Space",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "gallery",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "1",
+            "addr:street": "Jalan Puspo",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10221554949,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6335537,
+                -7.9599536
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Museum Pendidikan Indonesia Kota Malang",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "museum",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Tlogowaru",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10214604760,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6494824,
+                -8.0343752
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Sadikin Pard Gallery",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "gallery",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jl. Selat Sunda Raya",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10201090826,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6567987,
+                -7.9817414
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Arin Kimono",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "clothes",
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "19",
+            "addr:street": "Jalan Watugong",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8495523308,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6122917,
+                -7.9469514
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "TK ABA 5 MALANG",
+            "name:en": null,
+            "amenity": "college",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "637",
+            "addr:street": "Jalan Bareng Tenes 4A",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10656394356,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6226536,
+                -7.9786441
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Pusat Uniga Malang",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "18",
+            "addr:street": "Jalan Merjosari",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213373344,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6025586,
+                -7.9403977
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Ordo Karmel",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "3",
+            "addr:street": "Jalan Talang",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213392424,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6197497,
+                -7.9684104
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Musholla Al-Arif",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "RT 09",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153736135,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.598185,
+                -7.953362
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Museum IKIP Negeri Malang",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "museum",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213477244,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.618978,
+                -7.9632696
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Double Six 66",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Tlogomas",
+            "addr:housenumber": "32",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958387071,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6019638,
+                -7.9268277
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Agil Coffee",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Tlogomas",
+            "addr:housenumber": "16",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958414333,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.5986272,
+                -7.923725
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan FMIPA Universitas Negeri Malang",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Semarang",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10201118143,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6192985,
+                -7.9600152
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Teko Coffee Shop",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Melati",
+            "addr:housenumber": "38A",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958566559,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6319169,
+                -7.9537134
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Justice Corner",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": "Jalan Melati",
+            "addr:housenumber": "11A",
+            "addr:street": null,
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958566694,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.631717,
+                -7.9561138
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "FILKOM UB Library",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "1",
+            "addr:street": "Jalan Veteran",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10221544188,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6146393,
+                -7.9539194
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan FS UM",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Sumbersari Gang 7",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10218900910,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6156756,
+                -7.961117
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan & Rumah Bermain Madani",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Sumbersari Gang 4",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10201136431,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6103797,
+                -7.9550619
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Pasar Sayur Kedungboto",
+            "name:en": null,
+            "amenity": "marketplace",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Su 15:00-18:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Kedungrejo - Pakis",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8489780813,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.7032638,
+                -7.989507
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Vegan Mie pPanjang",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Su 08:00-21:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "22-24",
+            "addr:street": "Jalan Sunandar Priyo Sudarmo",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 6696505450,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6456811,
+                -7.9538307
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Vens Coffee",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Kav 1",
+            "addr:street": "Jalan Candi Trowulan",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3958543862,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6330511,
+                -7.9395489
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Puskesmas Singosari",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "1",
+            "addr:street": "Jalan Tohjoyo III",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8450104100,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6635509,
+                -7.8976306
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "PAUD Kasih Sayang",
+            "name:en": null,
+            "amenity": "school",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "01",
+            "addr:street": "Jalan Teluk Pelabuhan Ratu",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8201993865,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6507841,
+                -7.9267293
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Rest Area Maxim Freedom Malang",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "1",
+            "addr:street": "Jalan Jenderal Achmad Yani Utara",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 7783633845,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6500021,
+                -7.9269322
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Galipat-Mbahman-Plaosan",
+            "name:en": null,
+            "amenity": "place_of_worship",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Plaosan Timur",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3630983845,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6501624,
+                -7.938776
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Alur Rasa Malang",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "10:00-21:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "40",
+            "addr:street": "Jalan Soekarno-Hatta",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 9113189492,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6265666,
+                -7.9370915
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Pusat Unisma",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "193",
+            "addr:street": "Jalan Mayjen Haryono",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213429322,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6068274,
+                -7.9359334
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Bakso Solo Petra",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Profesor Mohammad Yamin",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3919978676,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.63173,
+                -7.9904278
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Digital Universitas Negeri Malang",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "6",
+            "addr:street": "Jalan Sumbersari",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10218927976,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6177773,
+                -7.9655059
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Museum Haji Muhammad Sattar (MHMS)",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "museum",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "6",
+            "addr:street": "Jalan Veteran",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213471967,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6154861,
+                -7.9570039
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "MUSEUM REENACTOR NGALAM",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "museum",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "62",
+            "addr:street": "Jalan Sumbersari Gang 4",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10214629399,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6080881,
+                -7.9547792
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Indonesian Old Cinema Museum",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "museum",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "45",
+            "addr:street": "Jalan Soekarno-Hatta",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213468079,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6277378,
+                -7.9371936
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Pia Cap Mangkok",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "supermarket",
+            "tourism": null,
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "25",
+            "addr:street": "Jalan Semeru",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153351832,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6284327,
+                -7.9765821
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Bluder Kapas",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "supermarket",
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "25",
+            "addr:street": "Jalan Semeru",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 10153351835,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6285072,
+                -7.9765971
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Jafra Malang Aulia",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "cosmetics",
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "5",
+            "addr:street": "Perum BMI Blok U2",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8390903390,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.5675518,
+                -7.9824722
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Kopi Tuju",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "7",
+            "addr:street": "Jalan Sutan Syahrir",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 6984264493,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6309825,
+                -7.9855925
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "BRI Unit Pasar Besar",
+            "name:en": null,
+            "amenity": "bank",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Kapten Piere Tendean",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3826149726,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6299547,
+                -7.9873157
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Praktek Umum dr. Wienanda",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "16",
+            "addr:street": "Jalan Belimbing Indah Blok I",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 4824322698,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6608048,
+                -7.9373345
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Program D3 Bahasa Inggris Unmer Malang",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "2A",
+            "addr:street": "Jalan Taman Agung",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10213462978,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.610917,
+                -7.9717065
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Malang Stoomtram Maatschappij",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "museum",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Merdeka Barat",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10214590993,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6303554,
+                -7.9819152
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Matahari Departement Store",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "department_store",
+            "tourism": null,
+            "opening_hours": "Mo-Su 10:00-21:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "2",
+            "addr:street": "Jl. Veteran",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 12243623607,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6185863,
+                -7.9571782
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Poli UB",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Jl. Mayjend Panjaitan, Penanggungan, Klojen, Ketawanggede, Kecamatan Lowokwaru, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65113",
+            "addr:street": "Jl. Mayjend Panjaitan, Penanggungan, Klojen, Ketawanggede, Kecamatan Lowokwaru, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65113",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5288630320,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6156292,
+                -7.9506212
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Es Ketan SMKN 4 Malang",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "11:00-15:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Tanimbar",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 3919973113,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6269577,
+                -7.9899639
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RS UB",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Jln. Soekarno Hatta, Jatimulyo, Lowokwaru, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141",
+            "addr:street": "Jln. Soekarno Hatta, Jatimulyo, Lowokwaru, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5288638021,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6200902,
+                -7.9431013
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Klinik Melati",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Jl. Mayjend. Panjaitan No.247, Penanggungan, Klojen, Kota Malang, Jawa Timur 65113",
+            "addr:street": "Jl. Mayjend. Panjaitan No.247, Penanggungan, Klojen, Kota Malang, Jawa Timur 65113",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5288719336,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6163989,
+                -7.9509345
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "RSU Dr Han Sik Liang",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Jl. Simpang Ijen No.3, Oro-oro Dowo, Klojen, Kota Malang, Jawa Timur 65119",
+            "addr:street": "Jl. Simpang Ijen No.3, Oro-oro Dowo, Klojen, Kota Malang, Jawa Timur 65119",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5288719338,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6236964,
+                -7.9634201
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Metro Calistro",
+            "name:en": null,
+            "amenity": "hospital",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "Jl. Soekarno Hatta, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141",
+            "addr:street": "Jl. Soekarno Hatta, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 5288719341,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6203424,
+                -7.9431434
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "D'chareso",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Sa 08:00-21:30",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "190",
+            "addr:street": "Jalan Laksda. Adi Sucipto",
+            "addr:city": "Malang",
+            "source": "survey",
+            "name:id": null,
+            "osm_id": 8883250655,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6508979,
+                -7.9452691
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "BNI",
+            "name:en": null,
+            "amenity": "bank",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "16",
+            "addr:street": "Jalan Veteran",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 11126635716,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6156302,
+                -7.9556711
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Alha Frozen Food",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "supermarket",
+            "tourism": null,
+            "opening_hours": "Mo-Su 07:00-22:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "615G",
+            "addr:street": "Jalan Mergan Musholla",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 9316764112,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6154494,
+                -7.9858189
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "BRI",
+            "name:en": null,
+            "amenity": "bank",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Fr 08:00-16:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Raya Mondoroko",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 8450120067,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6645842,
+                -7.8977972
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Azmi Bahagia Furniture",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": "furniture",
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Jalan Raya Sidomukti no.41Raya Malang - Bululawang",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 11063606429,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6375819,
+                -8.065905
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Perpustakaan Bagian Humas Setda Kabupaten Malang",
+            "name:en": null,
+            "amenity": "library",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "3",
+            "addr:street": "Jalan Merdeka Timur",
+            "addr:city": "Malang",
+            "source": "POI_GLAM_2022",
+            "name:id": null,
+            "osm_id": 10218912779,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6318266,
+                -7.9826656
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Desa Wisata Pujon Kidul",
+            "name:en": null,
+            "amenity": null,
+            "man_made": null,
+            "shop": null,
+            "tourism": "attraction",
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": null,
+            "addr:street": "Kawasan Wisata Cafe Sawah Desa Wisata Pujonkidul",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 9866124102,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.4552895,
+                -7.8554189
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Parkir Desa Wisata Pujonkidul",
+            "name:en": null,
+            "amenity": "parking",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": null,
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "1",
+            "addr:street": "Kawasan Wisata Cafe Sawah Desa Wisata Pujonkidul",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 9866124098,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.456155,
+                -7.8556513
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "SPBU Pertamina 54.651.76 Ciptomulyo",
+            "name:en": null,
+            "amenity": "fuel",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "24/7",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "10",
+            "addr:street": "Jalan Kolonel Sugiono",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 7212009502,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6299832,
+                -8.0037528
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "H&U Coffee and Eatery",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Sa 09:00-21:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "1- K",
+            "addr:street": "Jalan Majapahit",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 11611895504,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6312901,
+                -7.9796195
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Mifeng Kopitiam",
+            "name:en": null,
+            "amenity": "restaurant",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Su 07:00-23:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "94",
+            "addr:street": "Jalan Besar Ijen",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 11412458829,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6257818,
+                -7.9630451
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "TUKU - Malang",
+            "name:en": null,
+            "amenity": "cafe",
+            "man_made": null,
+            "shop": null,
+            "tourism": null,
+            "opening_hours": "Mo-Su 08:00-22:00",
+            "beds": null,
+            "rooms": null,
+            "addr:full": null,
+            "addr:housenumber": "27",
+            "addr:street": "Jalan Jombang",
+            "addr:city": "Malang",
+            "source": null,
+            "name:id": null,
+            "osm_id": 12441703570,
+            "osm_type": "nodes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                112.6155925,
+                -7.967296
+            ]
+        }
+    }
+]

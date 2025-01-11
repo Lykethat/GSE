@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}Sign In{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto bg-primary shadow-md rounded-lg p-6">
+    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card p-3 border-0">
+            <h5 class="card-header bg-primary text-light text-center">SIGN IN / REGISTER</h5>
+            <ul class="nav nav-pills nav-fill pt-3">
+                <li class="nav-item active">
+                    <a class="nav-link active font-weight-bold" id="login-tab" data-toggle="tab" data-target="#login"
+                        type="button" role="tab" aria-controls="login" aria-selected="true">Login</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link font-weight-bold" id="register-tab" data-toggle="tab" data-target="#register"
+                        type="button" role="tab" aria-controls="register" aria-selected="false">Register</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                    <form class="mt-3">
+                        <hr>
+                        <p class="text-center">Fill the relevant details below to login to your account</p>
+                        <div class="mb-3">
+                            <label for="login_email" class="form-label">Email address</label>
+                            <input type="email" class="form-control form-control-sm" id="login_email"
+                                aria-describedby="Login Email Address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="login_password" class="form-label">Password</label>
+                            <input type="password" class="form-control form-control-sm" id="login_password"
+                                aria-describedby="Login Password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="remember_me">
+                            <label class="form-check-label" for="remember_me">Remember Me</label>
+                        </div>
+                        <a type="submit" class="btn btn-block btn-primary font-weight-bold">Login</a>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                    <form class="mt-3">
+                        <hr>
+                        <p class="text-center">Fill the relevant details below to create your account</p>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="first_name" class="font-weight-bold">First Name <span class="text-danger">(*required)</span></label>
+                                <input type="text" class="form-control form-control-sm" id="first_name"
+                                    placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="last_name" class="font-weight-bold">Middle Name</label>
+                                <input type="password" class="form-control form-control-sm" id="middle_name"
+                                    placeholder="Middle Name">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="last_name" class="font-weight-bold">Last Name <span class="text-danger">(*required)</span></label>
+                                <input type="password" class="form-control form-control-sm" id="last_name"
+                                    placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="first_name" class="font-weight-bold">Email Address <span class="text-danger">(*required)</span></label>
+                                <input type="text" class="form-control form-control-sm" id="first_name"
+                                    placeholder="Email Address">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="nationality" class="font-weight-bold">Gender <span class="text-danger">(*required)</span></label>
+                                <select class="custom-select custom-select-sm" name="">
+                                    <option value="0">Male</option>
+                                    <option value="1">Female</option>
+                                    <option value="2">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="nationality" class="font-weight-bold">Nationality <span class="text-danger">(*required)</span></label>
+                                <select class="custom-select custom-select-sm" name="">
+                                    <option selected>Select Nationality</option>
+                                    {% for nationality in nationalities %}
+                                    <option value="0">{{ nationality}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="password" class="font-weight-bold">Password <span class="text-danger">(*required)</span></label>
+                                <input type="password" class="form-control form-control-sm" placeholder="Password" id="register_password">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="confirm_password" class="font-weight-bold">Confirm Password <span class="text-danger">(*required)</span></label>
+                                <input type="password" class="form-control form-control-sm" placeholder="Confirm Password"
+                                    id="register_confirm_password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Accept our <a href="terms">terms and conditions</a>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block font-weight-bold">REGISTER</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

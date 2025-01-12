@@ -4,7 +4,6 @@
 
 {% block content %}
 <h4 class="text-center font-weight-bold mb-2 text-primary">BROWSE DESTINATIONS</h4>
-
 <hr>
 <div class="my-4">
     <!-- Carousel -->
@@ -35,7 +34,7 @@
     </div>
 </div>
 <form class="" action="{{ url_for('main_search') }}" method="post">
-    <input type="password" class="form-control form-control-sm" id="inputPassword"
+    <input type="text" class="form-control form-control-sm" id="destinations"
         placeholder="Search for destination or category here ...">
 </form>
 <div class="table-responsive">

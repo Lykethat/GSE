@@ -4,9 +4,7 @@
 
 {% block content %}
 <h4 class="text-center font-weight-bold mb-2 text-primary">BROWSE DESTINATIONS</h4>
-<form class="" action="{{ url_for('main_search') }}" method="post"> 
-        <input type="password" class="form-control form-control-sm" id="inputPassword" placeholder="Search for destination here">
-</form>
+
 <hr>
 <div class="my-4">
     <!-- Carousel -->
@@ -36,27 +34,31 @@
         </a>
     </div>
 </div>
-
-
-<table>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Category</th>
-            <th>Opening Hours</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for attraction in attractions %}
-        <tr>
-            <td>{{ attraction.attraction_id}}</td>
-            <td>{{ attraction.properties.name}}</td>
-            <td>{{ attraction.properties.category }}</td>
-            <td>{{ attraction.properties.opening_hours }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+<form class="" action="{{ url_for('main_search') }}" method="post">
+    <input type="password" class="form-control form-control-sm" id="inputPassword"
+        placeholder="Search for destination or category here ...">
+</form>
+<div class="table-responsive">
+    <table class="table table-bordered my-2">
+        <thead>
+            <tr>
+                <th class="d-none">ID</th>
+                <th>Category</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for attraction in attractions %}
+            <tr>
+                <td class="d-none">{{ attraction.attraction_id}}</td>
+                <td><a class="text-center" href="">{{ attraction.properties.category.capitalize()}}</a></td>
+                <td>{{ attraction.properties.name}}</td>
+                <td><a href="attraction/{{ attraction.attraction_id}}" class="btn btn-sm btn-block btn-primary font-weight-bold"><i class="far fa-eye"></i></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
 
 {% endblock %}

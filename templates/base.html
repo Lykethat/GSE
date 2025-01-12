@@ -13,7 +13,8 @@
 </head>
 
 <body class="bg-gray-100 text-gray-800">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
         <a class="navbar-brand font-weight-bold" href="/">Intellitour</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,18 +22,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link font-weight-bold" aria-current="page" href="/">Home</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link font-weight-bold" href="/destinations">Destinations</a>
                 </li>
-                <li class="nav-item">
-                    <a class="btn btn-outline-light font-weight-bold me-2" href="/auth">Sign In</a>
-                </li>
+                <!-- <li class="nav-item">
+                    <a class="btn btn-outline-light font-weight-bold me-2" href="/">Sign In</a>
+                </li> -->
             </ul>
         </div>
     </nav>
+    <!-- Navbar end -->
 
     <main class="container mx-auto p-4">
         {% block content %}{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}AI TRIP CREATOR{% endblock %}
+{% block content %}
+<h4 class="text-center font-weight-bold mb-2 text-primary">AI TRIP CREATOR</h4>
+<form class="mt-3">
+    <hr>
+    <p class="text-center">Fill the relevant details below to create your account</p>
+    <div class="form-group">
+        <label for="number_of_days" class="font-weight-bold">Number of days <span
+                class="text-danger">(*Required)</span></label>
+        <input type="number" class="form-control form-control-sm" id="number_of_days" name="number_of_days"
+            placeholder="How many days ...">
+    </div>
+    <div class="form-group">
+        <label for="categories" class="font-weight-bold"> Categories<span class="text-danger">(*Required)</span></label>
+        <select class="custom-select custom-select-sm select2-tag" name="categories[]" multiple="multiple">
+            {% for category in categories %}
+            <option value="{{category}}">{{category}}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <a type="submit" class="btn btn-primary btn-block font-weight-bold">CREATE TRIP</a>
+</form>
+{% endblock %}

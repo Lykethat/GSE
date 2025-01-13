@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for
-import json
 
 # Load the functions file
 from tools.functions import *
@@ -17,6 +16,16 @@ categories = load_json(os.path.join(data_folder, "categories.json"))
 @app.route('/')
 def auth():
     return render_template('auth.html',nationalities=nationalities.get("nationalities", []))
+
+# Select Screen Route
+@app.route('/select_action')
+def select_action():
+    return render_template('select_action.html')
+
+# AI trip Route
+@app.route('/ai_trip_creator')
+def ai_trip_creator():
+    return render_template('ai_trip_creator.html',categories=categories.get("categories", []))
 
 # Destinations Route
 @app.route('/destinations', methods=['GET', 'POST'])

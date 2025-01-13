@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}DESTINATION{% endblock %}
+{% block content %}
+<h4 class="text-center font-weight-bold mb-2 text-primary">SELECT NEXT ACTION</h4>
+<hr>
+<div class="row mb-2">
+    <div class="col-6">
+        <div class="card mb-4 shadow-lg h-md-250 rounded">
+            <div class="card-body">
+                <h6 class="mb-0 font-weight-bold text-primary">CREATE TRIP</h6>
+                <hr>
+                <p class="text-justify">Select your destinations from a list of destinations.</p>
+                <a href="destinations" class="btn btn-sm btn-block btn-primary font-weight-bold">CREATE <i class="fas fa-plane-departure"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card mb-4 shadow-lg h-md-250 rounded">
+            <div class="card-body">
+                <h6 class="mb-0 font-weight-bold text-primary">AI GENERATED</h6>
+                <hr>
+                <p class="text-justify">Let our machine learning model create for you a curated trips.</p>
+                <a href="ai_trip_creator" class="btn btn-sm btn-block btn-primary font-weight-bold">GENERATE <i class="fas fa-sliders"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

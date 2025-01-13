@@ -6,6 +6,11 @@
     <hr>
     <p class="text-center">Fill the relevant details below to create your account</p>
     <div class="form-group">
+        <label for="categories" class="font-weight-bold"> Trip Name<span class="text-danger">(*Required)</span></label>
+        <input type="text" class="form-control form-control-sm" id="number_of_days" name="number_of_days"
+            placeholder="Enter the trip name here ...">
+    </div>
+    <div class="form-group">
         <label for="number_of_days" class="font-weight-bold">Number of days <span
                 class="text-danger">(*Required)</span></label>
         <input type="number" class="form-control form-control-sm" id="number_of_days" name="number_of_days"
@@ -19,6 +24,12 @@
             {% endfor %}
         </select>
     </div>
-    <a type="submit" class="btn btn-primary btn-block font-weight-bold">CREATE TRIP</a>
+    <div class="form-group">
+        <label for="number_of_days" class="font-weight-bold">Budget in Dollars<span
+                class="text-danger">(*Required)</span></label>
+        <input type="text" class="form-control form-control-sm" id="budget" name="budget"
+            placeholder="How many days ...">
+    </div>
+    <a href="ai_trip_creator" class="btn btn-sm btn-block btn-primary font-weight-bold">GENERATE <i class="fas fa-sliders"></i></a>
 </form>
 {% endblock %}

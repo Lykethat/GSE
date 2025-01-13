@@ -79,8 +79,7 @@
                             <div class="form-group col-md-4">
                                 <label for="nationality" class="font-weight-bold">Nationality <span
                                         class="text-danger">(*required)</span></label>
-                                <select class="custom-select custom-select-sm" name="">
-                                    <option selected>Select Nationality</option>
+                                <select class="custom-select custom-select-sm select2-tag" name="nationality">
                                     {% for nationality in nationalities %}
                                     <option value="{{nationality}}">{{nationality}}</option>
                                     {% endfor %}

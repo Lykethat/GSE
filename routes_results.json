@@ -1,1 +1,9 @@
-[]
+[
+Shortest path: ['a', 'c', 'b', 'e', 'd', 'a']
+Total time: 53
+each action:
+bus: 10
+metro: 8
+bus: 7
+metro: 21
+]

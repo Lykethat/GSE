@@ -89,7 +89,7 @@ def add_to_trip(attraction_id):
 
 # Route to view attractions in trips.json
 @app.route("/view_cart")
-def view_trips():
+def view_cart():
     selected_attractions = [a for a in attractions if a["attraction_id"] in trip.get("trips", [])]
     return render_template("trip_cart.html", attractions=selected_attractions)
 
@@ -98,15 +98,6 @@ def view_trips():
 def view_trips():
     selected_attractions = [a for a in attractions if a["attraction_id"] in trip.get("trips", [])]
     return render_template("trip_cart.html", attractions=selected_attractions)
-
-
-# @app.route('/ai-trip', methods=['GET', 'POST'])
-# def ai_trip():
-#     if request.method == 'POST':
-#         # Handle AI trip selection here
-#         selection = request.form.get('trip_option')
-#         return f"You selected: {selection}"
-#     return render_template('ai_trip.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

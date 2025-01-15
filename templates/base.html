@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,8 +38,8 @@
                 </li>
             </ul>
         </div>
-        <a href="trip_cart" class="btn btn-danger btn-sm">
-            <i class="fas fa-cart-flatbed-suitcase"></i> <span class="badge badge-primary">0</span>
+        <a href="/view_trips" class="btn btn-danger btn-sm">
+            <i class="fas fa-cart-flatbed-suitcase"></i> <span class="badge badge-primary"></span>
         </a>
     </nav>
     <!-- Navbar end -->
@@ -69,6 +70,7 @@
                     text: 'ADD',
                     btnClass: 'btn-primary',
                     action: function () {
+                        location.href = this.$target.attr('href');
                     }
                 },
                 close: function () {

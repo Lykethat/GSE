@@ -37,35 +37,24 @@
         placeholder="Search for destination or category here ...">
 </form>
 
-<div class="table-responsive">
-    <table class="table table-bordered my-2 table-sm">
-        <thead>
-            <tr>
-                <th class="d-none">ID</th>
-                <th>Category</th>
-                <th>Name</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for attraction in attractions %}
-            <tr>
-                <td class="d-none">{{ attraction.attraction_id}}</td>
-                <td><a class="text-center" href=""><span class="badge badge-secondary">{{
-                            attraction.properties.category.capitalize()}}</span></a></td>
-                <td>{{ attraction.properties.name}}</td>
-                <td>
-                    <div class="btn-group">
-                        <a href="attraction/{{ attraction.attraction_id}}"
-                            class="btn btn-sm btn-primary font-weight-bold"><i class="far fa-eye"></i></a>
-                            
-                        <a href="add_attraction_to_trip/{{ attraction.attraction_id}}" class="btn btn-danger font-weight-bold add_attraction"><i class="fas fa-cart-plus"></i></a>
-                    </div>
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-</div>
+<div class="row">
+    {% for attraction in attractions %}
+    <div class="col-6 pt-2">
+        <div class="card box-shadow">
+            <img class="card-img-top" src="https://placehold.co/600x400?text=Malang\nDestination"
+                alt="{{ attraction.properties.name}}">
+            <div class="card-body">
+                <p class="card-text">{{ attraction.properties.name[:20] }}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <a href="{{ url_for('attraction_details', attraction_id=attraction.attraction_id) }}"
+                        class="btn btn-sm btn-outline-primary btn-block font-weight-bold">VIEW <i
+                            class="fas fa-eye"></i></a>
+                    <a href="{{ url_for('attraction_details', attraction_id=attraction.id) }}"></a>
 
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
 {% endblock %}

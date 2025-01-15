@@ -393,7 +393,7 @@
             "name:id": null,
             "osm_id": 3686792041,
             "osm_type": "nodes",
-            "category": "hostel"
+            "category": "hotel"
         },
         "geometry": {
             "type": "Point",
@@ -420,7 +420,7 @@
             "name:id": null,
             "osm_id": 3631034135,
             "osm_type": "nodes",
-            "category": "religious"
+            "category": "hotel"
         },
         "geometry": {
             "type": "Point",
@@ -474,7 +474,7 @@
             "name:id": null,
             "osm_id": 8430648297,
             "osm_type": "nodes",
-            "category": "school"
+            "category": "hotel"
         },
         "geometry": {
             "type": "Point",

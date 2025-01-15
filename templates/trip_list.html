@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}DESTINATION{% endblock %}
+{% block content %}
+<h4 class="text-center font-weight-bold mb-2 text-primary">MY TRIPS</h4>
+<hr><input id="search_table" type="text" class="form-control form-control-sm"
+    placeholder="Search for Trip Name here ...">
+<div class="table-responsive pt-2">
+    <table class="table table-sm table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('search_table');
+        const tableRows = document.querySelectorAll('#table-body tr');
+
+        // Listen for input in the search field
+        searchInput.addEventListener('keyup', function () {
+            const query = searchInput.value.toLowerCase();
+
+            // Filter table rows based on the query
+            tableRows.forEach(row => {
+                const nameColumn = row.querySelector('td:nth-child(2)').textContent.toLowerCase();
+                if (nameColumn.includes(query)) {
+                    row.style.display = ''; // Show the row if it matches
+                } else {
+                    row.style.display = 'none'; // Hide the row if it doesn't match
+                }
+            });
+        });
+    });
+</script>
+
+{% endblock %}

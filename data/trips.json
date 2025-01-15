@@ -1,7 +1,26 @@
-{
-    "trips": [
-        "oopfbiezzc",
-        "yiyuuda1uk",
-        "8uiujulpdl"
-    ]
-}
+[
+    {
+        "details": {
+            "trip_name": "3",
+            "number_of_days": "3",
+            "budget": "2000",
+            "hotel": []
+        },
+        "destinations": [
+            "oopfbiezzc",
+            "9kxgs5ifeh",
+            "me79mwf5ps"
+        ],
+        "trip_id": "b84e212b"
+    },
+    {
+        "details": {
+            "trip_name": "5",
+            "number_of_days": "5",
+            "budget": "2000",
+            "hotel": []
+        },
+        "destinations": {},
+        "trip_id": "ed9cf715"
+    }
+]

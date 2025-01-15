@@ -31,30 +31,47 @@
         </a>
     </div>
 </div>
-
-<form class="" action="" method="post">
-    <input type="text" class="form-control form-control-sm" id="destinations"
-        placeholder="Search for destination or category here ...">
-</form>
-
-<div class="row">
+<input id="search_table" type="text" class="form-control form-control-sm"
+    placeholder="Search for destination or category here ...">
+<div class="row" id="card-container">
     {% for attraction in attractions %}
-    <div class="col-6 pt-2">
+    <div class="col-6 pt-2 card-item">
         <div class="card box-shadow">
             <img class="card-img-top" src="https://placehold.co/600x400?text=Malang\nDestination"
-                alt="{{ attraction.properties.name}}">
+                alt="{{ attraction.properties.name }}">
             <div class="card-body">
-                <p class="card-text">{{ attraction.properties.name[:20] }}</p>
+                <p class="card-text font-weight-bold">{{ attraction.properties.name[:20] }}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <a href="{{ url_for('attraction_details', attraction_id=attraction.attraction_id) }}"
                         class="btn btn-sm btn-outline-primary btn-block font-weight-bold">VIEW <i
                             class="fas fa-eye"></i></a>
-                    <a href="{{ url_for('attraction_details', attraction_id=attraction.id) }}"></a>
-
                 </div>
             </div>
         </div>
     </div>
     {% endfor %}
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('search_table');
+        const cards = document.querySelectorAll('.card-item');
+
+        // Listen for input in the search field
+        searchInput.addEventListener('keyup', function () {
+            const query = searchInput.value.toLowerCase();
+
+            // Filter cards based on the query
+            cards.forEach(card => {
+                const cardText = card.querySelector('.card-text').textContent.toLowerCase();
+                if (cardText.includes(query)) {
+                    card.style.display = 'block'; // Show the card if it matches
+                } else {
+                    card.style.display = 'none'; // Hide the card if it doesn't match
+                }
+            });
+        });
+    });
+</script>
+
 {% endblock %}

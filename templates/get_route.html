@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}DESTINATION{% endblock %}
+{% block content %}
+<h4 class="text-center font-weight-bold mb-2 text-primary">TRIP NAVIGATION</h4>
+<hr>
+<nav class="pb-3">
+    <div class="nav nav-pills nav-fill" id="nav-tab" role="tablist">
+        <button class="nav-link active font-weight-bold" id="nav-walk-tab" data-toggle="tab" data-target="#nav-walk"
+            type="button" role="tab" aria-controls="nav-walk" aria-selected="true">WALK <i
+                class="fas fa-person-hiking"></i></button>
+        <button class="nav-link font-weight-bold" id="nav-train-tab" data-toggle="tab" data-target="#nav-train"
+            type="button" role="tab" aria-controls="nav-train" aria-selected="false">TRAIN <i
+                class="fas fa-train-subway"></i></button>
+        <button class="nav-link font-weight-bold" id="nav-car-tab" data-toggle="tab" data-target="#nav-car"
+            type="button" role="tab" aria-controls="nav-car" aria-selected="false">CAR <i
+                class="fas fa-taxi"></i></button>
+    </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+    <!-- Walk Map -->
+    <div class="tab-pane fade show active" id="nav-walk" role="tabpanel" aria-labelledby="nav-walk-tab">
+        <div id="walk-map" style="height: 400px;"></div>
+    </div>
+    <!-- Train Tab -->
+    <div class="tab-pane fade" id="nav-train" role="tabpanel" aria-labelledby="nav-train-tab">
+        <p class="text-center mt-4 font-weight-bold text-danger">THIS INFORMATION IS NOT AVAILABLE</p>
+    </div>
+    <!-- Car Map -->
+    <div class="tab-pane fade" id="nav-car" role="tabpanel" aria-labelledby="nav-car-tab">
+        <div id="car-map" style="height: 400px;"></div>
+    </div>
+</div>
+
+<!-- Include Leaflet.js -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+<script>
+    const graphhopperApiKey = "ae9c2188-0f60-42ed-af56-05403567b4cc"; // Replace with your API key
+    const attractions = {{ attractions | tojson }}; // Pass attractions data
+    const destinations = {{ destinations | tojson }}; // Pass destination IDs from trips.json
+
+    function getCoordinates(destinationIds) {
+        const coords = destinationIds.map(id => {
+            const attraction = attractions.find(attr => attr.attraction_id === id);
+            return attraction ? attraction.geometry.coordinates.reverse() : null; // Reverse for [lat, lon]
+        }).filter(coord => coord); // Remove null values
+
+        console.log("Extracted Coordinates:", coords); // Debugging
+        return coords;
+    }
+
+
+    // Initialize Map
+    function initializeMap(mapId, mode) {
+        const map = L.map(mapId).setView([0, 0], 13); // Default view
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        const coords = getCoordinates(destinations);
+        if (coords.length > 1) {
+            const url = `https://graphhopper.com/api/1/route?point=${coords.map(c => c.join(",")).join("&point=")}&vehicle=${mode}&locale=en&key=${graphhopperApiKey}&points_encoded=false`;
+
+            // Fetch route from GraphHopper
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.paths && data.paths.length > 0) {
+                        const route = data.paths[0].points.coordinates.map(coord => [coord[1], coord[0]]);
+                        L.polyline(route, { color: 'blue' }).addTo(map);
+                        map.fitBounds(route);
+                    }
+                })
+                .catch(error => console.error("Error fetching route:", error));
+        }
+
+        // Add markers for destinations
+        coords.forEach(coord => {
+            L.marker(coord).addTo(map);
+        });
+    }
+
+    // Initialize maps for Car and Walk modes
+    document.addEventListener("DOMContentLoaded", function () {
+        console.log("Initializing Walk Map");
+        initializeMap("walk-map", "foot");
+
+        console.log("Initializing Car Map");
+        initializeMap("car-map", "bike");
+    });
+
+</script>
+{% endblock %}

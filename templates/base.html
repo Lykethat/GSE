@@ -18,6 +18,68 @@
 
     <!-- Return-confirm -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css">
+    <style>
+        .timeline {
+            position: relative;
+            padding: 1rem 0;
+            margin: 0;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 30px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #ddd;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-left: 60px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: 22px;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            background-color: #fff;
+            border: 4px solid #007bff;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .map-container {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .rating {
+            color: #28a745;
+        }
+
+        .text-muted i {
+            margin-right: 4px;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
@@ -38,12 +100,12 @@
                 </li>
             </ul>
         </div>
-        <a href="/view_trips" class="btn btn-danger btn-sm">
+        <a href="/view_cart" class="btn btn-danger btn-sm">
             <i class="fas fa-cart-flatbed-suitcase"></i> <span class="badge badge-primary"></span>
         </a>
     </nav>
     <!-- Navbar end -->
-    <main class="container mx-auto p-4">
+    <main class="container mx-auto pt-4">
         {% block content %}{% endblock %}
     </main>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

@@ -9,19 +9,20 @@
     <div class="py-2">
         <div class="card shadow">
             <div class="row">
-                <div class="col-3 mx-1"><img src="https://placehold.co/800x800" alt="" style="width: 100%; height: 100%;"></div>
+                <div class="col-3 mx-1"><img src="https://placehold.co/800x800" alt=""
+                        style="width: 100%; height: 100%;"></div>
                 <div class="col-8">
                     <h6 class="">{{attraction.properties.name}}</h6>
-                    <p class="text-primary">{{ attraction.properties.category.capitalize() }}</p></div>
-                    <a href=""><i class="fas fa-circle-minus fa-md"></i></a>
+                    <p class="text-primary">{{ attraction.properties.category.capitalize() }}</p>
+                </div>
+                <a href=""><i class="fas fa-circle-minus fa-md"></i></a>
             </div>
         </div>
     </div>
-    
     {% endfor %}
 </div>
 {% else %}
 <p>No attractions added to your trip yet.</p>
 {% endif %}
-<a href="/" class="btn btn-primary mt-4 btn-block font-weight-bold">CREATE TRIP</a>
+<a href="/view_trips" class="btn btn-primary mt-4 btn-block font-weight-bold">CREATE TRIP</a>
 {% endblock %}

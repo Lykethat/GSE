@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Map with Flask and JSON</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Map with Dynamic Coordinates</h1>
+
+    <!-- Anchor Tags for Dynamic IDs -->
+    <a href="#" class="location-link" data-id="1">Location 1</a>
+    <a href="#" class="location-link" data-id="2">Location 2</a>
+    <a href="#" class="location-link" data-id="3">Location 3</a>
+
+    <div id="map"></div>
+
+    <script>
+        // Initialize map
+        const map = L.map('map').setView([0, 0], 2); // Default view
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Function to fetch and update map based on ID
+        async function updateMap(id) {
+            try {
+                const response = await fetch(`/get_coordinates/${id}`);
+                if (!response.ok) throw new Error('ID not found');
+                const data = await response.json();
+
+                // Update map view and add marker
+                const { lat, lon } = data;
+                map.setView([lat, lon], 13);
+                L.marker([lat, lon]).addTo(map)
+                    .bindPopup(`Location ${id}`)
+                    .openPopup();
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+
+        // Add click event listeners to anchor tags
+        document.querySelectorAll('.location-link').forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default anchor behavior
+                const id = event.target.getAttribute('data-id'); // Get ID from data attribute
+                updateMap(id); // Fetch and update map
+            });
+        });
+    </script>
+</body>
+</html>

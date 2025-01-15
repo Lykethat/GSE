@@ -97,7 +97,7 @@ def view_cart():
 @app.route("/view_trips")
 def view_trips():
     selected_attractions = [a for a in attractions if a["attraction_id"] in trip.get("trips", [])]
-    return render_template("trip_cart.html", attractions=selected_attractions)
+    return render_template("view_trip.html", attractions=selected_attractions)
 
 if __name__ == '__main__':
     app.run(debug=True)

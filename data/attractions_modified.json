@@ -231,7 +231,8 @@
             "name:id": null,
             "osm_id": 6817644786,
             "osm_type": "nodes",
-            "category": "restaurant"
+            "category": "restaurant",
+            "picture":
         },
         "geometry": {
             "type": "Point",
@@ -312,7 +313,8 @@
             "name:id": null,
             "osm_id": 3958556485,
             "osm_type": "nodes",
-            "category": "cafe"
+            "category": "cafe",
+            "picture":
         },
         "geometry": {
             "type": "Point",
@@ -501,7 +503,8 @@
             "name:id": null,
             "osm_id": 11246123639,
             "osm_type": "nodes",
-            "category": "cafe"
+            "category": "cafe",
+            "picture":
         },
         "geometry": {
             "type": "Point",
@@ -663,7 +666,8 @@
             "name:id": null,
             "osm_id": 3958546347,
             "osm_type": "nodes",
-            "category": "cafe"
+            "category": "cafe",
+            "picture":
         },
         "geometry": {
             "type": "Point",

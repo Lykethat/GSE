@@ -1126,7 +1126,8 @@
             "name:id": null,
             "osm_id": 6684216707,
             "osm_type": "nodes",
-            "category": "restaurant"
+            "category": "restaurant",
+            "picture":
         },
         "geometry": {
             "type": "Point",
@@ -2532,7 +2533,7 @@
             "osm_id": 10214629399,
             "osm_type": "nodes",
             "category": "museum",
-            "picture"
+            "picture":
         },
         "geometry": {
             "type": "Point",

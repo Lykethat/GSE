@@ -4,33 +4,24 @@
             "trip_name": "Malang 2025",
             "number_of_days": "3",
             "budget": "2000",
-            "hotel": []
+            "hotel": "Galipat - Mbahman - Sukun",
+            "start_date": "2025-01-15"
         },
         "destinations": [
             "oopfbiezzc",
-            "8uiujulpdl",
-            "0otxklzumn"
+            "7bll624cxf"
         ],
         "trip_id": "b84e212b"
     },
     {
         "details": {
-            "trip_name": "Boys Tour",
-            "number_of_days": "5",
-            "budget": "2000",
-            "hotel": []
-        },
-        "destinations": {},
-        "trip_id": "ed9cf715"
-    },
-    {
-        "details": {
-            "trip_name": "Summer break",
+            "trip_name": "Okello John Here",
             "number_of_days": "4",
-            "budget": "2000",
-            "hotel": []
+            "budget": "2334",
+            "hotel": "Galipat - Mbahman - Sukun",
+            "start_date": "2025-01-15"
         },
         "destinations": {},
-        "trip_id": "dc31981f"
+        "trip_id": "65899396"
     }
 ]

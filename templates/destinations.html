@@ -37,8 +37,12 @@
     {% for attraction in attractions %}
     <div class="col-6 pt-2 card-item">
         <div class="card box-shadow">
-            <img class="card-img-top" src="https://placehold.co/600x400?text=Malang\nDestination"
+            <!-- <img class="card-img-top" src="https://placehold.co/600x400?text=Malang\nDestination"
+                alt="{{ attraction.properties.name }}"> -->
+            <img class="card-img-top" style="height: 10rem;"
+                src="{% if attraction.properties.picture and attraction.properties.picture.strip() != '' %}{{ attraction.properties.picture }}{% else %}https://placehold.co/700x700?text=Malang\nDestination{% endif %}"
                 alt="{{ attraction.properties.name }}">
+
             <div class="card-body">
                 <p class="card-text font-weight-bold">{{ attraction.properties.name[:20] }}</p>
                 <div class="d-flex justify-content-between align-items-center">

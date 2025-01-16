@@ -94,6 +94,7 @@
     <div class="">
         <h5 class=""><strong>Tuesday, Jan 14</strong> Malang, Indonesia</h5>
         <div class="timeline">
+            {% set start_time = 10 %} <!-- Initial start time (10:00) -->
             {% for attraction in attractions %}
             <!-- Timeline Item -->
             <div class="timeline-item">
@@ -104,17 +105,24 @@
                                 <h6 class="card-title mb-2">{{ attraction.properties.name }}</h6>
                                 <hr>
                                 <p class="text-muted">
-                                    <a href=""><i class="fa fa-map-marker-alt"></i> location</a>
+                                    <a href="" class="text-decoration-none font-weight-bold">
+                                        <i class="fa fa-map-marker-alt"></i> See location
+                                    </a>
                                     <br>
-                                    Open : {{ attraction.properties.opening_hours }}
+                                    <span class="text-primary font-weight-bold">Open :</span> {{ attraction.properties.opening_hours }}
+                                    <br>
+                                    <span class="text-primary font-weight-bold">Arrive at :</span>
+                                    {{ "%02d:00" | format(start_time % 24) }} <!-- Format as HH:00 -->
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            {% set start_time = start_time + 2 %} <!-- Increment by 2 hours -->
             {% endfor %}
         </div>
+        
     </div>
 </div>
 <a class="btn btn-block btn-primary font-weight-bold" href="get_route">GET ROUTE</a>

@@ -59,15 +59,17 @@ def create_new_trip():
         trip_name = request.form.get("trip_name")  # Use appropriate input name
         number_of_days = request.form.get("number_of_days")
         budget = request.form.get("budget")
-        hotel = request.form.getlist("hotel")
+        hotel = request.form.get("hotel")
+        start_date = request.form.get("start_date")
 
         # Construct the trip data
         trip_data = {
             "details": {
                 "trip_name": trip_name,
                 "number_of_days": number_of_days,
-                "budget": "2000",
+                "budget": budget,
                 "hotel": hotel,
+                "start_date": start_date,
             },
             "destinations": {},
             "trip_id": trip_id,

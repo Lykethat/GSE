@@ -10,17 +10,27 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
-                <th scope="col">Status</th>
+                <!-- <th scope="col">Status</th> -->
                 <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody id="table-body">
+            {% for trip in trips %}
             <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td></td>
+                <td scope="row">{{ loop.index }}</td>
+                <!-- <td>{{ trip.trip_id }}</td> -->
+                <td>{{ trip.details.trip_name }}</td>
+                <!-- <td class="text-center"><span class="badge badge-primary">done</span></td> -->
+                <td class="text-center">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a href="/destinations" class="btn btn-sm btn-primary font-weight-bold"><i class="far fa-eye"></i></a>
+                        <a href="#" class="btn btn-sm btn-success font-weight-bold"><i class="far fa-square-plus"></i></a>
+                        <a href="#" class="btn btn-sm btn-danger font-weight-bold"><i class="fas fa-trash-can"></i></a>
+                        <!-- <i class="fas fa-trash-can"></i> -->
+                    </div>
+                </td>
             </tr>
+            {% endfor %}
         </tbody>
     </table>
 </div>

@@ -56,7 +56,7 @@ def create_new_trip():
         # Generate unique ID for the trip
         trip_id = secrets.token_hex(4)  # Generates an 8-character alphanumeric ID
         # Get form data
-        trip_name = request.form.get("number_of_days")  # Use appropriate input name
+        trip_name = request.form.get("trip_name")  # Use appropriate input name
         number_of_days = request.form.get("number_of_days")
         budget = request.form.get("budget")
         hotel = request.form.getlist("hotel")
@@ -82,10 +82,6 @@ def create_new_trip():
     hotels = get_hotels()
     # print("Hotels passed to template:", hotels)  # Debug statement
     return render_template("create_trip.html", categories=categories.get("categories", []),hotels=hotels)
-
-# @app.route("/success/<trip_id>")
-# def success(trip_id):
-#     return f"Trip created successfully! Your trip ID is {trip_id}"
 
 
 # Count the number of IDs in trips.json
@@ -174,26 +170,7 @@ def add_to_trip(attraction_id):
 
     return redirect(url_for("view_cart"))
 
-# @app.route("/add_to_trip/<string:attraction_id>")
-# def add_to_trip(attraction_id):
-#     # Ensure "destinations" exists in the trip data and is a list
-#     if "destinations" not in trip or not isinstance(trip["destinations"], list):
-#         trip["destinations"] = []
 
-#     # Add the attraction_id to the "destinations" list if it doesn't already exist
-#     if attraction_id not in trip["destinations"]:
-#         trip["destinations"].append(attraction_id)
-
-#     # Save the updated trip to the JSON file
-#     save_json(os.path.join(data_folder, "trips.json"), trip)
-
-#     return redirect(url_for("view_cart"))
-
-# Route to view attractions in trips.json
-# @app.route("/view_cart")
-# def view_cart():
-#     selected_attractions = [a for a in attractions if a["attraction_id"] in trip.get("trips", [])]
-#     return render_template("trip_cart.html", attractions=selected_attractions)
 
 @app.route("/view_cart")
 def view_cart():
@@ -252,10 +229,16 @@ def view_trips():
 def profile():
     return render_template('profile.html')
 
-# Route to view attractions in trips.json
+# # Route to view attractions in trips.json
+# @app.route("/trip_list")
+# def trip_list():
+#     return render_template('trip_list.html')
+
 @app.route("/trip_list")
 def trip_list():
-    return render_template('trip_list.html')
+    trips = load_json(TRIPS_FILE)  # Load the trips.json file
+    return render_template('trip_list.html', trips=trips)
+
 
 # get_route
 # @app.route("/get_route")

@@ -1,7 +1,7 @@
 [
     {
         "details": {
-            "trip_name": "3",
+            "trip_name": "Malang 2025",
             "number_of_days": "3",
             "budget": "2000",
             "hotel": []
@@ -15,7 +15,7 @@
     },
     {
         "details": {
-            "trip_name": "5",
+            "trip_name": "Boys Tour",
             "number_of_days": "5",
             "budget": "2000",
             "hotel": []
@@ -25,7 +25,7 @@
     },
     {
         "details": {
-            "trip_name": "4",
+            "trip_name": "Summer break",
             "number_of_days": "4",
             "budget": "2000",
             "hotel": []

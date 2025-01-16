@@ -232,7 +232,7 @@
             "osm_id": 6817644786,
             "osm_type": "nodes",
             "category": "restaurant",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",
@@ -314,7 +314,7 @@
             "osm_id": 3958556485,
             "osm_type": "nodes",
             "category": "cafe",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",
@@ -504,7 +504,7 @@
             "osm_id": 11246123639,
             "osm_type": "nodes",
             "category": "cafe",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",
@@ -667,7 +667,7 @@
             "osm_id": 3958546347,
             "osm_type": "nodes",
             "category": "cafe",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",
@@ -1127,7 +1127,7 @@
             "osm_id": 6684216707,
             "osm_type": "nodes",
             "category": "restaurant",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",
@@ -1776,7 +1776,7 @@
             "osm_id": 10214604760,
             "osm_type": "nodes",
             "category": "museum",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",
@@ -2533,7 +2533,7 @@
             "osm_id": 10214629399,
             "osm_type": "nodes",
             "category": "museum",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",
@@ -3263,7 +3263,7 @@
             "osm_id": 11412458829,
             "osm_type": "nodes",
             "category": "restaurant",
-            "picture":
+            "picture":""
         },
         "geometry": {
             "type": "Point",

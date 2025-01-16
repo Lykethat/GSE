@@ -148,18 +148,46 @@ def attraction_details(attraction_id):
         return render_template("attraction_details.html", attraction=attraction)
     else:
         return "Attraction not found", 404
-
-# Route to add an attraction ID to trips.json
+    
 @app.route("/add_to_trip/<string:attraction_id>")
 def add_to_trip(attraction_id):
-    if "trips" not in trip:
-        trip["trips"] = []
+    # Load the trips data
+    trips = load_json(TRIPS_FILE)
 
-    if attraction_id not in trip["trips"]:
-        trip["trips"].append(attraction_id)
-        save_json(os.path.join(data_folder, "trips.json"), trip)
+    # Ensure there's at least one trip in the file
+    if not trips or not isinstance(trips, list):
+        return "No trips found to add the attraction.", 404
+
+    # Access the first trip in the list
+    first_trip = trips[0]
+
+    # Ensure "destinations" exists and is a list
+    if "destinations" not in first_trip or not isinstance(first_trip["destinations"], list):
+        first_trip["destinations"] = []
+
+    # Add the attraction_id to "destinations" if it's not already in the list
+    if attraction_id not in first_trip["destinations"]:
+        first_trip["destinations"].append(attraction_id)
+
+    # Save the updated trips data
+    save_json(TRIPS_FILE, trips)
 
     return redirect(url_for("view_cart"))
+
+# @app.route("/add_to_trip/<string:attraction_id>")
+# def add_to_trip(attraction_id):
+#     # Ensure "destinations" exists in the trip data and is a list
+#     if "destinations" not in trip or not isinstance(trip["destinations"], list):
+#         trip["destinations"] = []
+
+#     # Add the attraction_id to the "destinations" list if it doesn't already exist
+#     if attraction_id not in trip["destinations"]:
+#         trip["destinations"].append(attraction_id)
+
+#     # Save the updated trip to the JSON file
+#     save_json(os.path.join(data_folder, "trips.json"), trip)
+
+#     return redirect(url_for("view_cart"))
 
 # Route to view attractions in trips.json
 # @app.route("/view_cart")

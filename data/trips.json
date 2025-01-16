@@ -8,8 +8,8 @@
         },
         "destinations": [
             "oopfbiezzc",
-            "9kxgs5ifeh",
-            "me79mwf5ps"
+            "8uiujulpdl",
+            "0otxklzumn"
         ],
         "trip_id": "b84e212b"
     },
@@ -22,5 +22,15 @@
         },
         "destinations": {},
         "trip_id": "ed9cf715"
+    },
+    {
+        "details": {
+            "trip_name": "4",
+            "number_of_days": "4",
+            "budget": "2000",
+            "hotel": []
+        },
+        "destinations": {},
+        "trip_id": "dc31981f"
     }
 ]
